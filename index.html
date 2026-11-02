@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Osebni portfolio DevOps inženirja." />
-    <title>Gregor Papež | DevOps Engineer</title>
+
+    <title>Janez Novak | DevOps Engineer</title>
     <style>
       * {
         box-sizing: border-box;
@@ -403,9 +404,12 @@
   </head>
   <body>
     <header>
-      <div class="container nav">
-        <a href="#domov" class="logo">Gregor Papež</a>
-        <button class="menu-toggle" aria-label="Odpri meni" aria-expanded="false">
+        <a href="#domov" class="logo">Janez Novak</a>
+        <button
+          class="menu-toggle"
+          aria-label="Odpri meni"
+          aria-expanded="false"
+        >
           &#9776;
         </button>
         <ul class="nav-links">
@@ -451,8 +455,8 @@
               <div class="icon">&#9881;</div>
               <h3>CI/CD avtomatizacija</h3>
               <p>
-                Postavitev in vzdrževanje sistemov za neprekinjeno integracijo in
-                dostavo kode.
+                Postavitev in vzdrževanje sistemov za neprekinjeno integracijo
+                in dostavo kode.
               </p>
               <span class="tag">GitHub Actions · GitLab CI</span>
             </article>
@@ -469,7 +473,8 @@
               <div class="icon">&#9729;</div>
               <h3>Infrastruktura kot koda</h3>
               <p>
-                Avtomatizirana postavitev virov v oblaku z deklarativnimi orodji.
+                Avtomatizirana postavitev virov v oblaku z deklarativnimi
+                orodji.
               </p>
               <span class="tag">Terraform · Ansible · AWS</span>
             </article>
@@ -502,7 +507,7 @@
           <div class="contact-details">
             <a href="mailto:devops@primerek.si">📧 devops@primerek.si</a>
             <a href="https://github.com/uporabnik">💼 github.com/uporabnik</a>
-            <span>🇸🇮 Ljubljana, Slovenija</span>
+            <span>🇸🇮 Ptuj, Slovenija</span>
           </div>
           <a href="mailto:devops@primerek.si" class="btn">Pošlji sporočilo</a>
         </div>
@@ -511,8 +516,7 @@
 
     <footer>
       <div class="container">
-        <p>
-          &copy; 2024 Gregor Papež · Vse pravice pridržane.
+          &copy; 2024 Janez Novak · Vse pravice pridržane.
           <br />Primerne vsebine, brez resničnih osebnih podatkov.
         </p>
       </div>
@@ -547,9 +551,11 @@
             }
           });
         },
-        { threshold: 0.12 }
+        { threshold: 0.12 },
       );
-      document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
     </script>
   </body>
 </html>
